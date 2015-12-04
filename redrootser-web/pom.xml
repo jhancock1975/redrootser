@@ -6,9 +6,9 @@
 	<artifactId>redrootser-web</artifactId>
 	<name>redrootser-web</name>
 	<packaging>war</packaging>
-	
-	
-	 <parent>
+
+
+	<parent>
 		<groupId>com.rootser</groupId>
 		<artifactId>redrootser</artifactId>
 		<version>1.0.0-BUILD-SNAPSHOT</version>
@@ -16,6 +16,11 @@
 	</parent>
 
 	<dependencies>
+		<dependency>
+			<groupId>com.rootser</groupId>
+			<artifactId>redrootser-shared</artifactId>
+			<version>${project.version}</version>
+		</dependency>
 		<!-- Spring -->
 		<dependency>
 			<groupId>org.springframework</groupId>
@@ -119,11 +124,11 @@
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
-	
+
 	<build>
 		<plugins>
 			<plugin>
-				<!--  shows library source code in eclipse -->
+				<!-- shows library source code in eclipse -->
 				<artifactId>maven-eclipse-plugin</artifactId>
 				<configuration>
 					<additionalProjectnatures>
