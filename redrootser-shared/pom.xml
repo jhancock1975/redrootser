@@ -14,6 +14,7 @@
 		<version>1.0.0-BUILD-SNAPSHOT</version>
 		<relativePath>../pom.xml</relativePath>
 	</parent>
+		<dependencies>
 	<!-- Logging -->
 		<dependency>
 			<groupId>org.slf4j</groupId>
