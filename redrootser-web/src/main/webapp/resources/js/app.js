@@ -24,7 +24,7 @@ loginApp.controller('loginAppCrtl', function($scope, $rootScope, $http, $resourc
 				
 				$rootScope.loggedInUser = response;
 				
-				var customerRes =  $resource('http://rootser.com:9191/redrootser-db-0.0.1-SNAPSHOT/customers/:customerId',
+				var customerRes =  $resource('http://rootser.com:9191/redrootser-db-1.0.0-BUILD-SNAPSHOT/customers/:customerId',
 						{customerId:'@id'}, {stripTrailingSlashes: false});
 				var customer = toCustomer(response);
 				customerRes.save(customer);
