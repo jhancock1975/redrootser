@@ -23,6 +23,7 @@
 
 	<modules>
 		<module>redrootser-web</module>
+		<module>redrootser-web2</module>
 		<module>redrootser-db</module>
 		<module>redrootser-shared</module>
 	</modules>
