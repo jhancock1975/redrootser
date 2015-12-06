@@ -16,7 +16,11 @@
 	</parent>
 
 	<dependencies>
-		
+		<dependency>
+			<groupId>com.rootser</groupId>
+			<artifactId>redrootser-shared</artifactId>
+			<version>${project.version}</version>
+		</dependency>
 		<!-- Spring -->
 		<dependency>
 			<groupId>org.springframework</groupId>

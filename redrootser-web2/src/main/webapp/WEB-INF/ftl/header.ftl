@@ -10,7 +10,7 @@
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-resource.js"></script>
 <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
 
-<script src="./resources/js/util.js"></script>
+<script src="./js/util.js"></script>
 
 <!--  for U/I debugging -->
 <link rel="stylesheet" href="./resources/css/debug.css"/>

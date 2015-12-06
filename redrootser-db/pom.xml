@@ -3,7 +3,7 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	
+
 	<artifactId>redrootser-db</artifactId>
 	<packaging>war</packaging>
 
@@ -18,6 +18,12 @@
 	</parent>
 
 	<dependencies>
+		<dependency>
+			<groupId>com.rootser</groupId>
+			<artifactId>redrootser-shared</artifactId>
+			<version>${project.version}</version>
+		</dependency>
+
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-aop</artifactId>
@@ -37,9 +43,9 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
-			<!-- added next exclusion to fix error:
-			LoggerFactory is not a Logback LoggerContext but Logback is on the classpath. 
-			Either remove Logback or the competing implementation -->
+			<!-- added next exclusion to fix error: LoggerFactory is not a Logback 
+				LoggerContext but Logback is on the classpath. Either remove Logback or the 
+				competing implementation -->
 			<exclusions>
 				<exclusion>
 					<groupId>org.springframework.boot</groupId>
@@ -58,9 +64,9 @@
 			<scope>provided</scope>
 		</dependency>
 
-		<!-- added next exclusion to fix error:
-			LoggerFactory is not a Logback LoggerContext but Logback is on the classpath. 
-			Either remove Logback or the competing implementation -->
+		<!-- added next exclusion to fix error: LoggerFactory is not a Logback 
+			LoggerContext but Logback is on the classpath. Either remove Logback or the 
+			competing implementation -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter</artifactId>
@@ -72,7 +78,7 @@
 			</exclusions>
 		</dependency>
 
-	
+
 	</dependencies>
 
 	<build>

@@ -29,13 +29,7 @@
 	</modules>
 
 	<dependencies>
-
-		<dependency>
-			<groupId>com.rootser</groupId>
-			<artifactId>redrootser-shared</artifactId>
-			<version>${project.version}</version>
-		</dependency>
-
+		
 		<!-- database -->
 		<dependency>
 			<groupId>org.postgresql</groupId>
