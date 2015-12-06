@@ -1,4 +1,4 @@
-<#-- @ftlvariable name="user" type="eu.kielczewski.example.domain.User" -->
+<#-- @ftlvariable name="user" type="com.rootser.redrootser.domain.User" -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,7 +8,7 @@
 <body>
 <nav role="navigation">
     <ul>
-        <li><a href="/">Home</a></li>
+        <li><a href="../">Home</a></li>
     </ul>
 </nav>
 
